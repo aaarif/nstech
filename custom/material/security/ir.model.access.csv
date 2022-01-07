@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+material_viewer_id,Material User,material,material_viewer,1,1,1,1
+material_admin_id,Material User,material,material_admin,1,1,1,1

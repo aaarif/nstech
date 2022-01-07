@@ -1,0 +1,20 @@
+<data>
+    <record model="ir.module.category" id="material_group_category">
+        <field name="name">Material</field>
+        <field name="description">Group Category for Material</field>
+    </record>
+    <record model="res.groups" id="material_admin">
+        <field name="name">Material Admin</field>
+        <field name="category_id" ref="material_group_category"/>
+    </record>
+
+  <record model="res.groups" id="material_viewer">
+        <field name="name">Material Viewer</field>
+        <field name="category_id" ref="material_group_category"/>
+  </record>
+  
+  <record model="res.groups" id="material_editor">
+        <field name="name">Material Editor</field>
+        <field name="category_id" ref="material_group_category"/>
+  </record>
+</data>
